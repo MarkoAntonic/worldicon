@@ -1,0 +1,27 @@
+body {
+    background-color: ivory;
+}
+#container {
+    position:relative;
+    width:271px;
+    height:267px;
+    border:1px solid black;
+}
+#bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+#middle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+#top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
